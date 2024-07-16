@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod +x build.sh
 rm -rf release
 cp -r public/ release/
 find release -type f -name '*.php' -delete
