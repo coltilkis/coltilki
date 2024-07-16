@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube Downloader</title>
+</head>
+<body>
+
+
+	<form action="index.php" method="post">
+	Video Url = <input style="width: 500px;" type="text" name="video_link" value="<?php if(isset($video_link)){echo $video_link;}?>">
+	<input type="submit" value="Check Available Dowloads">
+	</form>
+
+	Right Click - Save link as to Download video with proper filename.
+	<br><br>
+<?php
+include('index.php');
+?>
+</body>
+</html>
